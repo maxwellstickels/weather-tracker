@@ -1,0 +1,22 @@
+:root {
+    --favorable: #99dfa9;
+    --moderate: #dfdf79;
+    --severe: #e76;
+
+}
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.favorable {
+    background-color: var(--favorable);
+}
+
+.moderate {
+    background-color: var(--moderate);
+}
+
+.severe {
+    background-color: var(--severe);
+}
