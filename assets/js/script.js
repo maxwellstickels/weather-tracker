@@ -129,7 +129,7 @@ function getResults(event) {
         var cityName = target.textContent;
     }
     if (cityName.length > 0) {
-        var requestLatLon = "http://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=1&appid=" + apiKey;
+        var requestLatLon = "https://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=1&appid=" + apiKey;
         fetch(requestLatLon).then(function (response) { return response.json(); }).then(function (data) {
             if (data[0] === undefined) {
                 notFound();
