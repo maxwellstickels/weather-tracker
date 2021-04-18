@@ -10,40 +10,44 @@
 </head>
 <body>
     <header>
-
+        <h1>The Weather Tracker</h1>
+    </header>
     </header>
     <main>
         <section id="search-area">
-            <textarea id="city"></textarea>
+            <textarea id="city" maxlength="50" placeholder="City Name Here"></textarea>
             <button id="submitBtn">Submit</button>
             <button id="clearBtn">Clear History</button>
+            <hr>
             <section id="search-history">
+                <p style="display:inline-flex"><b>Recent Searches:</b></p>
                 <button class="history" id="history0"></button>
                 <button class="history" id="history1"></button>
                 <button class="history" id="history2"></button>
                 <button class="history" id="history3"></button>
                 <button class="history" id="history4"></button>
             </section>
+            <hr>
         </section>
-
         <section id="results-area">
+            <h2 id="location"></h2>
             <!-- Day 0 is today, Day 1 is tommorow, etc. -->
-            <section id="day0">
+            <section class="day" id="day0">
             </section>
-            <section id="day1">
+            <section class="day" id="day1">
             </section>
-            <section id="day2">
+            <section class="day" id="day2">
             </section>
-            <section id="day3">
+            <section class="day" id="day3">
             </section>
-            <section id="day4">
+            <section class="day" id="day4">
             </section>
-            <section id="day5">
+            <section class="day" id="day5">
             </section>
         </section>
     </main>
     <footer>
-
+        <h2>Made By Max Stickels</h2>
     </footer>
     <script src="assets/js/script.js"></script>
 </body>
