@@ -17,7 +17,7 @@ This website was designed with HTML 5, CSS 3.0, and Javascript (2020 Build) in V
 
 ## MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) 2021 Maxwell Woodrow Stickels
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
